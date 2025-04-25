@@ -116,7 +116,7 @@ th {
 
 /* Estilo para tarefa concluída */
 tr.concluida td {
-  background-color: #d4edda !important; 
-  color: #155724 !important; 
+  background-color: #d4edda ;
+  color: #155724 ;
   text-decoration: line-through;
 }

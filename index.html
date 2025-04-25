@@ -13,32 +13,55 @@
     />
   </head>
   <body>
-    <!-- formulario de Cadastro de Tarefas -->
-
     <div class="container">
       <h1>Formulário de Descrição de Tarefas</h1>
       <form id="form-tarefas">
-          <label for="tarefa">Tarefa:</label>
-          <input type="text" id="tarefa" required />
-          <label for="descricao">Descrição:</label>
-          <input type="text" id="descricao" required />
-          <button type="submit">Adicionar Tarefa</button>
+        <label for="tarefa">Tarefa:</label>
+        <input type="text" id="tarefa" required />
+        <label for="descricao">Descrição:</label>
+        <input type="text" id="descricao" required />
+        <button type="submit">Adicionar Tarefa</button>
       </form>
-  </div>
+    </div>
 
-  <div class="tabela-tarefas">
+    <div class="tabela-tarefas">
       <h2>Lista de tarefas</h2>
       <table id="tabelaGastos">
-          <thead>
-              <tr>
-                  <th>Tarefa</th>
-                  <th>Descrição</th>
-                  <th>Ações</th>
-              </tr>
-          </thead>
-          <tbody id="listaTarefas">
-              </tbody>
-            </tab>
+        <thead>
+          <tr>
+            <th>Tarefa</th>
+            <th>Descrição</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody id="listaTarefas"></tbody>
+      </table>
+    </div>
+
+    <div id="modal-edicao" class="modal hidden">
+      <div class="modal-content">
+        <h3>Editar Tarefa</h3>
+        <form id="form-edicao">
+          <label>
+            Tarefa:
+            <input type="text" id="editar-tarefa" required />
+          </label>
+          <label>
+            Descrição:
+            <input type="text" id="editar-descricao" required />
+          </label>
+          <label>
+            Concluída:
+            <input type="checkbox" id="editar-concluida" />
+          </label>
+          <p id="mensagem-erro-edicao"></p>
+          <div class="modal-botoes">
+            <button type="button" id="salvar-edicao">Salvar</button>
+            <button type="button" id="cancelar-edicao">Cancelar</button>
+          </div>
+        </form>
+      </div>
+    </div>
 
     <script src="./JavaScript/main.js"></script>
   </body>
