@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Aplicativo de Lista de Tarefa Interativa </title>
+    <title>Aplicativo de Lista de Tarefa Interativa</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       rel="stylesheet"
@@ -24,9 +24,25 @@
         <input type="text" id="descricao" required />
 
         <!-- botão para adicionar o gasto  -->
-        <button type="submit">Adicionar Gasto</button>
+        <button type="submit">Adicionar Tarefa</button>
       </form>
     </div>
+
+    <!-- Tabela com as tarefas -->
+
+    <div class="tabela-tarefas">
+      <h2>Lista de tarefas</h2>
+      <table id="tabelaGastos">
+        <thead>
+          <tr>
+            <th>Tarefa</th>
+            <th>Descrição</th>
+          </tr>
+        </thead>
+        <tbody id="listaTarefas">
+          <!-- Itens aparecerão aqui -->
+        </tbody>
+      </table>
 
     <script src="./JavaScript/main.js"></script>
   </body>
