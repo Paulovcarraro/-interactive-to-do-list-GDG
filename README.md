@@ -51,16 +51,16 @@ Este é um aplicativo web interativo para gerenciar listas de tarefas. Ele permi
 
 ### Formulário de Adição de Tarefa
 
-\[Image of Formulário de Adição de Tarefa]
+![Formulario](./images/Foemulário.png)
 
 ---
 
 ### Lista de Tarefas
 
-\[Image of Lista de Tarefas]
+![Tabela de Tarefas](./images/Tabela%20da%20Tarefas.png)
 
 ---
 
 ### Modal de Edição de Tarefa
 
-\[Image of Modal de Edição de Tarefa]
+![Modal de edição](./images/Captura%20de%20tela%202025-04-25%20211213.png)
